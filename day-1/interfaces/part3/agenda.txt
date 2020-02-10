@@ -1,0 +1,10 @@
+1> empty interface: interface{}
+
+2> type assertion: i.(T)
+
+3> avoiding panic: v, ok := i.(T)
+
+4> type switch: switch i.(type)
+
+5> type switch and type implementing the interface:
+switch v := i.(type)
